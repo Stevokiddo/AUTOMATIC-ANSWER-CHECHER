@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster | {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <span>🧠</span>
+                    <h1>QuizMaster</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}" class="nav-link active">Home</a></li>
+                    <li><a href="{{ url_for('index', category='science') }}" class="nav-link science">Science</a></li>
+                    <li><a href="{{ url_for('index', category='health') }}" class="nav-link health">Health</a></li>
+                    <li><a href="{{ url_for('index', category='physics') }}" class="nav-link physics">Physics</a></li>
+                    <li><a href="{{ url_for('index', category='general') }}" class="nav-link general">General</a></li>
+                    {% if current_user.is_authenticated %}
+                        <li><a href="{{ url_for('index') }}" class="nav-link profile">Profile</a></li>
+                        <li><a href="{{ url_for('logout') }}" class="nav-link logout">Logout</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('login') }}" class="nav-link login">Login</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="flash-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer>
+            <div class="wave"></div>
+            <div class="footer-content">
+                <p>© 2023 QuizMaster | Expand Your Knowledge Daily</p>
+                <div class="social-links">
+                    <a href="#" class="social">Twitter</a>
+                    <a href="#" class="social">GitHub</a>
+                    <a href="#" class="social">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

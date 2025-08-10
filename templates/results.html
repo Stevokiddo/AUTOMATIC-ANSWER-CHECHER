@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="card">
+        <h2>Quiz Results</h2>
+        
+        <div class="summary">
+            <div class="summary-item">
+                <span>Total Questions:</span>
+                <span>{{ total_questions }}</span>
+            </div>
+            <div class="summary-item">
+                <span>Correct Answers:</span>
+                <span>{{ correct }}</span>
+            </div>
+            <div class="summary-item">
+                <span>Score:</span>
+                <span>{{ score }}%</span>
+            </div>
+            <div class="summary-item">
+                <span>Time Taken:</span>
+                <span>{{ time_taken }}</span>
+            </div>
+        </div>
+        
+        <h3>Question Review</h3>
+        <div class="answers">
+            {% for answer in answers %}
+                <div class="answer {% if answer.is_correct %}correct{% else %}incorrect{% endif %}">
+                    <p><strong>Question {{ loop.index }}:</strong> {{ answer.question }}</p>
+                    
+                    <!-- Show all options for incorrect answers -->
+                    {% if not answer.is_correct %}
+                        <div class="options-review">
+                            <ul>
+                                {% for option in answer.options %}
+                                    <li class="{% if option.startswith(answer.correct_answer ~ '.') %}correct-option{% endif %}">
+                                        {{ option }}
+                                        {% if option.startswith(answer.user_answer ~ '.') %}
+                                            <span class="user-selection">(Your selection)</span>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                    
+                    <p class="answer-summary">
+                        Your answer: <strong>{{ answer.user_answer }}</strong>
+                        {% if not answer.is_correct %} 
+                            | Correct answer: <strong>{{ answer.correct_answer }}</strong>
+                        {% endif %}
+                    </p>
+                </div>
+            {% endfor %}
+        </div>
+        
+        <a href="{{ url_for('index') }}" class="btn">Take Another Quiz</a>
+    </div>
+{% endblock %}

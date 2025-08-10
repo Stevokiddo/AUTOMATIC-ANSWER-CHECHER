@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome back, <span class="username">{{ current_user.username }}</span>! 👋</h2>
+            <p class="subtitle">Ready to challenge yourself today?</p>
+            
+            <div class="category-stats">
+                {% for category, count in categories.items() %}
+                <div class="stat-card {{ category }}">
+                    <div class="category-icon">
+                        {% if category == 'science' %}🔬
+                        {% elif category == 'health' %}🏥
+                        {% elif category == 'physics' %}⚛️
+                        {% else %}🌍
+                        {% endif %}
+                    </div>
+                    <h3>{{ category.capitalize() }}</h3>
+                    <p class="question-count"><span class="count-number">{{ count }}</span> Questions</p>
+                    <form action="{{ url_for('start_quiz') }}" method="post">
+                        <input type="hidden" name="category" value="{{ category }}">
+                        <input type="hidden" name="total_questions" value="{{ max_questions }}"> 
+                        <button type="submit" class="btn">Start</button>
+                    </form>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="{{ url_for('static', filename='images/quiz22.png') }}" alt="Quiz Image">
+        </div>
+    </section>
+    
+    <section class="quick-start">
+        <h3>Quick Quiz</h3>
+        <form action="{{ url_for('start_quiz') }}" method="post">
+            <div class="form-group">
+                <label for="category">Select Category:</label>
+                <select id="category" name="category" class="form-select" required>
+                    {% for category, count in categories.items() %}
+                    <option value="{{ category }}">{{ category.capitalize() }} ({{ count }} questions)</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="total_questions">Number of Questions:</label>
+                <div class="range-container">
+                    <input type="number" 
+                        id="total_questions" 
+                        name="total_questions" 
+                        min="1" 
+                        max="{{ max_questions }}" 
+                        value="5"
+                        required
+                        class="form-range">
+
+                    <!--------
+
+                    <input type="range" id="total_questions" name="total_questions" 
+                           min="1" max="{{ max_questions }}" value="5" class="form-range">
+                    <output for="total_questions" class="range-value">5</output>
+                    --------->
+                </div>
+            </div>
+            <button type="submit" class="btn primary">Start Quiz Now</button>
+        </form>
+    </section>
+
+    
+{% endblock %}

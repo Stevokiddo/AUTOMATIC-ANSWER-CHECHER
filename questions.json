@@ -1,0 +1,515 @@
+{
+    "categories": {
+        "science": [
+        {
+            "question": "What is the basic unit of life?",
+            "options": ["A. Atom", "B. Cell", "C. Molecule", "D. Organ"],
+            "answer": "B"
+        },
+        {
+            "question": "Which gas do plants absorb during photosynthesis?",
+            "options": ["A. Oxygen", "B. Nitrogen", "C. Carbon dioxide", "D. Hydrogen"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+            "answer": "C"
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["A. Venus", "B. Mars", "C. Jupiter", "D. Saturn"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the pH value of pure water?",
+            "options": ["A. 0", "B. 7", "C. 10", "D. 14"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is NOT a state of matter?",
+            "options": ["A. Solid", "B. Liquid", "C. Gas", "D. Energy"],
+            "answer": "D"
+        },
+        {
+            "question": "What force keeps planets in orbit around the sun?",
+            "options": ["A. Electromagnetism", "B. Gravity", "C. Friction", "D. Nuclear force"],
+            "answer": "B"
+        },
+        {
+            "question": "Which element is most abundant in Earth's atmosphere?",
+            "options": ["A. Oxygen", "B. Carbon", "C. Nitrogen", "D. Hydrogen"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "options": ["A. Gold", "B. Iron", "C. Diamond", "D. Quartz"],
+            "answer": "C"
+        },
+        {
+            "question": "Which blood type is known as the universal donor?",
+            "options": ["A. A", "B. B", "C. AB", "D. O"],
+            "answer": "D"
+        },
+        {
+            "question": "What is the process by which plants lose water through their leaves?",
+            "options": ["A. Photosynthesis", "B. Transpiration", "C. Respiration", "D. Evaporation"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is a noble gas?",
+            "options": ["A. Oxygen", "B. Nitrogen", "C. Helium", "D. Chlorine"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["A. Liver", "B. Brain", "C. Skin", "D. Heart"],
+            "answer": "C"
+        },
+        {
+            "question": "Which scientist proposed the theory of evolution by natural selection?",
+            "options": ["A. Isaac Newton", "B. Albert Einstein", "C. Charles Darwin", "D. Gregor Mendel"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the main component of the sun?",
+            "options": ["A. Liquid lava", "B. Hydrogen gas", "C. Oxygen plasma", "D. Carbon dioxide"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is a renewable energy source?",
+            "options": ["A. Coal", "B. Natural gas", "C. Solar power", "D. Petroleum"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the chemical formula for table salt?",
+            "options": ["A. H2O", "B. CO2", "C. NaCl", "D. C6H12O6"],
+            "answer": "C"
+        },
+        {
+            "question": "Which part of the plant conducts photosynthesis?",
+            "options": ["A. Roots", "B. Stem", "C. Leaves", "D. Flowers"],
+            "answer": "C"
+        },
+        {
+            "question": "What causes the tides on Earth?",
+            "options": ["A. The sun's gravity", "B. The moon's gravity", "C. Earth's rotation", "D. All of the above"],
+            "answer": "D"
+        },
+        {
+            "question": "Which of these is NOT a type of rock?",
+            "options": ["A. Igneous", "B. Sedimentary", "C. Metamorphic", "D. Volcanic"],
+            "answer": "D"
+        }
+        ],
+        
+        "health": [
+        {
+            "question": "What is the recommended daily water intake for an average adult?",
+            "options": ["A. 1 liter", "B. 2 liters", "C. 3 liters", "D. 4 liters"],
+            "answer": "B"
+        },
+        {
+            "question": "Which vitamin is primarily obtained from sunlight?",
+            "options": ["A. Vitamin A", "B. Vitamin C", "C. Vitamin D", "D. Vitamin K"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the normal resting heart rate for adults?",
+            "options": ["A. 30-50 bpm", "B. 60-100 bpm", "C. 110-140 bpm", "D. 150-180 bpm"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is a symptom of diabetes?",
+            "options": ["A. Excessive thirst", "B. Hair loss", "C. Blurred vision", "D. Both A and C"],
+            "answer": "D"
+        },
+        {
+            "question": "What is the main function of carbohydrates in the body?",
+            "options": ["A. Build muscle", "B. Provide energy", "C. Strengthen bones", "D. Improve eyesight"],
+            "answer": "B"
+        },
+        {
+            "question": "Which organ is responsible for filtering blood in the human body?",
+            "options": ["A. Heart", "B. Liver", "C. Kidneys", "D. Lungs"],
+            "answer": "C"
+        },
+        {
+            "question": "How many hours of sleep is recommended for adults per night?",
+            "options": ["A. 3-5 hours", "B. 6-8 hours", "C. 9-11 hours", "D. 12-14 hours"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is a risk factor for heart disease?",
+            "options": ["A. High cholesterol", "B. Regular exercise", "C. Low blood pressure", "D. Vegetarian diet"],
+            "answer": "A"
+        },
+        {
+            "question": "What does BMI stand for?",
+            "options": ["A. Body Mass Index", "B. Bone Muscle Indicator", "C. Blood Measurement Index", "D. Basal Metabolic Index"],
+            "answer": "A"
+        },
+        {
+            "question": "Which food is a good source of omega-3 fatty acids?",
+            "options": ["A. Salmon", "B. White bread", "C. Potato chips", "D. Soda"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the primary benefit of regular exercise?",
+            "options": ["A. Improved cardiovascular health", "B. Better sleep", "C. Stronger muscles", "D. All of the above"],
+            "answer": "D"
+        },
+        {
+            "question": "Which of these is a common symptom of dehydration?",
+            "options": ["A. Dark yellow urine", "B. Excessive sweating", "C. Increased appetite", "D. Rapid hair growth"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the leading cause of lung cancer?",
+            "options": ["A. Air pollution", "B. Smoking", "C. Genetics", "D. Lack of exercise"],
+            "answer": "B"
+        },
+        {
+            "question": "Which mineral is essential for healthy bones and teeth?",
+            "options": ["A. Iron", "B. Calcium", "C. Sodium", "D. Potassium"],
+            "answer": "B"
+        },
+        {
+            "question": "What does CPR stand for?",
+            "options": ["A. Cardiopulmonary Resuscitation", "B. Cardiac Pressure Recovery", "C. Chest Pulse Revival", "D. Circulatory Pulmonary Restoration"],
+            "answer": "A"
+        },
+        {
+            "question": "Which of these is a mental health disorder?",
+            "options": ["A. Diabetes", "B. Hypertension", "C. Depression", "D. Arthritis"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the normal range for blood pressure in adults?",
+            "options": ["A. 60/40 mmHg", "B. 90/60 mmHg", "C. 120/80 mmHg", "D. 150/100 mmHg"],
+            "answer": "C"
+        },
+        {
+            "question": "Which vitamin helps with blood clotting?",
+            "options": ["A. Vitamin A", "B. Vitamin B12", "C. Vitamin C", "D. Vitamin K"],
+            "answer": "D"
+        },
+        {
+            "question": "What is the main cause of type 2 diabetes?",
+            "options": ["A. Viral infection", "B. Poor diet and lack of exercise", "C. Genetic mutation", "D. Exposure to radiation"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of these is a symptom of the common cold?",
+            "options": ["A. Broken bones", "B. Runny nose", "C. Severe chest pain", "D. High fever (above 103°F)"],
+            "answer": "B"
+        }
+        ],
+
+        "physics": [
+        {
+            "question": "What is the SI unit of force?",
+            "options": ["A. Joule", "B. Newton", "C. Watt", "D. Pascal"],
+            "answer": "B"
+        },
+        {
+            "question": "Which law states that 'for every action, there is an equal and opposite reaction'?",
+            "options": ["A. Newton's First Law", "B. Newton's Second Law", "C. Newton's Third Law", "D. Law of Gravitation"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "options": ["A. 300,000 km/s", "B. 150,000 km/s", "C. 500,000 km/s", "D. 1,000,000 km/s"],
+            "answer": "A"
+        },
+        {
+            "question": "Which physicist developed the theory of relativity?",
+            "options": ["A. Isaac Newton", "B. Albert Einstein", "C. Nikola Tesla", "D. Marie Curie"],
+            "answer": "B"
+        },
+        {
+            "question": "What does 'E = mc²' represent?",
+            "options": ["A. Kinetic energy formula", "B. Energy-mass equivalence", "C. Gravitational force", "D. Electromagnetic theory"],
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is a vector quantity?",
+            "options": ["A. Speed", "B. Mass", "C. Velocity", "D. Temperature"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the acceleration due to gravity on Earth (approx.)?",
+            "options": ["A. 5 m/s²", "B. 9.8 m/s²", "C. 12 m/s²", "D. 15 m/s²"],
+            "answer": "B"
+        },
+        {
+            "question": "Which phenomenon explains why the sky appears blue?",
+            "options": ["A. Refraction", "B. Diffraction", "C. Rayleigh scattering", "D. Doppler effect"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the unit of electrical resistance?",
+            "options": ["A. Volt", "B. Ampere", "C. Ohm", "D. Watt"],
+            "answer": "C"
+        },
+        {
+            "question": "Which of these is NOT a fundamental force of nature?",
+            "options": ["A. Gravitational force", "B. Electromagnetic force", "C. Nuclear force", "D. Frictional force"],
+            "answer": "D"
+        },
+        {
+            "question": "What is the law of conservation of energy?",
+            "options": ["A. Energy can be created but not destroyed", "B. Energy cannot be created or destroyed, only transformed", "C. Energy decreases over time", "D. Energy is always increasing"],
+            "answer": "B"
+        },
+        {
+            "question": "Which particle carries a positive charge in an atom?",
+            "options": ["A. Electron", "B. Neutron", "C. Proton", "D. Photon"],
+            "answer": "C"
+        },
+        {
+            "question": "What type of lens is used to correct myopia (nearsightedness)?",
+            "options": ["A. Convex lens", "B. Concave lens", "C. Bifocal lens", "D. Cylindrical lens"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the principle behind a hydraulic lift?",
+            "options": ["A. Bernoulli's principle", "B. Pascal's principle", "C. Archimedes' principle", "D. Hooke's law"],
+            "answer": "B"
+        },
+        {
+            "question": "Which law describes the relationship between voltage, current, and resistance?",
+            "options": ["A. Faraday's law", "B. Ohm's law", "C. Coulomb's law", "D. Lenz's law"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the phenomenon where light bends when passing through different mediums?",
+            "options": ["A. Reflection", "B. Refraction", "C. Diffraction", "D. Dispersion"],
+            "answer": "B"
+        },
+        {
+            "question": "Which scientist is credited with discovering the electron?",
+            "options": ["A. Ernest Rutherford", "B. J.J. Thomson", "C. Niels Bohr", "D. James Clerk Maxwell"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the term for the resistance of an object to changes in its motion?",
+            "options": ["A. Momentum", "B. Inertia", "C. Friction", "D. Acceleration"],
+            "answer": "B"
+        },
+        {
+            "question": "Which type of energy is stored in a stretched spring?",
+            "options": ["A. Kinetic energy", "B. Potential energy", "C. Thermal energy", "D. Radiant energy"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the frequency of a wave measured in?",
+            "options": ["A. Meters", "B. Hertz", "C. Watts", "D. Newtons"],
+            "answer": "B"
+        }
+        ],
+
+        "general": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["A. Paris", "B. Berlin", "C. Madrid", "D. Rome"],
+            "answer": "A"
+        },
+        {
+            "question": "Which programming language is known as the 'language of the web'?",
+            "options": ["A. Python", "B. JavaScript", "C. C++", "D. Java"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Saturn"],
+            "answer": "C"
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "options": ["A. William Wordsworth", "B. Charles Dickens", "C. William Shakespeare", "D. Mark Twain"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the boiling point of water at sea level?",
+            "options": ["A. 100°C", "B. 50°C", "C. 200°C", "D. 150°C"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the square root of 64?",
+            "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["A. Au", "B. Ag", "C. Fe", "D. Hg"],
+            "answer": "A"
+        },
+        {
+            "question": "Which is the longest river in the world?",
+            "options": ["A. Nile", "B. Amazon", "C. Yangtze", "D. Mississippi"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the main ingredient in guacamole?",
+            "options": ["A. Tomato", "B. Avocado", "C. Lime", "D. Onion"],
+            "answer": "B"
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["A. Venus", "B. Mars", "C. Mercury", "D. Saturn"],
+            "answer": "B"
+        },
+        {
+            "question": "Which element is represented by the chemical symbol O?",
+            "options": ["A. Oxygen", "B. Osmium", "C. Oganesson", "D. Opium"],
+            "answer": "A"
+        },
+        {
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "options": ["A. China", "B. Japan", "C. South Korea", "D. Thailand"],
+            "answer": "B"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["A. Vincent van Gogh", "B. Pablo Picasso", "C. Leonardo da Vinci", "D. Michelangelo"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the smallest unit of life?",
+            "options": ["A. Atom", "B. Molecule", "C. Cell", "D. Organism"],
+            "answer": "C"
+        },
+        {
+            "question": "Which ocean is the largest by area?",
+            "options": ["A. Atlantic Ocean", "B. Indian Ocean", "C. Arctic Ocean", "D. Pacific Ocean"],
+            "answer": "D"
+        },
+        {
+            "question": "What is the main currency used in Japan?",
+            "options": ["A. Yen", "B. Dollar", "C. Won", "D. Euro"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the chemical formula for water?",
+            "options": ["A. CO2", "B. H2O", "C. CH4", "D. O2"],
+            "answer": "B"
+        },
+        {
+            "question": "Which continent is known as the 'Dark Continent'?",
+            "options": ["A. Asia", "B. Europe", "C. Africa", "D. South America"],
+            "answer": "C"
+        },
+        {
+            "question": "Who developed the theory of relativity?",
+            "options": ["A. Isaac Newton", "B. Albert Einstein", "C. Galileo Galilei", "D. Nikola Tesla"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the largest mammal on Earth?",
+            "options": ["A. Elephant", "B. Blue Whale", "C. Giraffe", "D. Hippopotamus"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "options": ["A. Gold", "B. Diamond", "C. Iron", "D. Platinum"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the capital city of Australia?",
+            "options": ["A. Sydney", "B. Melbourne", "C. Canberra", "D. Perth"],
+            "answer": "C"
+        },
+        {
+            "question": "Which famous scientist developed the three laws of motion?",
+            "options": ["A. Albert Einstein", "B. Isaac Newton", "C. Galileo Galilei", "D. Marie Curie"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the name of the largest desert in the world?",
+            "options": ["A. Sahara Desert", "B. Gobi Desert", "C. Arabian Desert", "D. Antarctic Desert"],
+            "answer": "D"
+        },
+        {
+            "question": "What does the 'HTTP' stand for in a website address?",
+            "options": ["A. HyperText Transfer Protocol", "B. HyperText Transmission Port", "C. High Transmission Text Protocol", "D. HyperTerminal Text Protocol"],
+            "answer": "A"
+        },
+        {
+            "question": "Which planet is closest to the sun?",
+            "options": ["A. Mercury", "B. Venus", "C. Earth", "D. Mars"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the national animal of Canada?",
+            "options": ["A. Moose", "B. Beaver", "C. Polar Bear", "D. Maple Leaf"],
+            "answer": "B"
+        },
+        {
+            "question": "Who painted the ceiling of the Sistine Chapel?",
+            "options": ["A. Leonardo da Vinci", "B. Raphael", "C. Michelangelo", "D. Donatello"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "options": ["A. K2", "B. Mount Everest", "C. Kangchenjunga", "D. Lhotse"],
+            "answer": "B"
+        },
+        {
+            "question": "What is the chemical symbol for sodium?",
+            "options": ["A. S", "B. Na", "C. So", "D. Sa"],
+            "answer": "B"
+        },
+        {
+            "question": "Which famous ship sank on its maiden voyage in 1912?",
+            "options": ["A. Titanic", "B. Britannic", "C. Lusitania", "D. Queen Mary"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the name of the fairy in Peter Pan?",
+            "options": ["A. Tinker Bell", "B. Thumbelina", "C. Glinda", "D. Periwinkle"],
+            "answer": "A"
+        },
+        {
+            "question": "Which country gifted the Statue of Liberty to the United States?",
+            "options": ["A. France", "B. England", "C. Germany", "D. Spain"],
+            "answer": "A"
+        },
+        {
+            "question": "Which is the smallest country in the world?",
+            "options": ["A. Monaco", "B. San Marino", "C. Liechtenstein", "D. Vatican City"],
+            "answer": "D"
+        },
+        {
+            "question": "How many bones are there in the adult human body?",
+            "options": ["A. 202", "B. 206", "C. 212", "D. 215"],
+            "answer": "B"
+        },
+        {
+            "question": "What does the 'DC' in Washington, D.C., stand for?",
+            "options": ["A. District of Columbia", "B. Department of Congress", "C. Dominion of Capital", "D. Domain of Constitution"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the longest bone in the human body?",
+            "options": ["A. Humerus", "B. Tibia", "C. Femur", "D. Radius"],
+            "answer": "C"
+        },
+        {
+            "question": "What is the name of the first artificial Earth satellite?",
+            "options": ["A. Apollo", "B. Sputnik", "C. Voyager", "D. Explorer"],
+            "answer": "B"
+        },
+        {
+            "question": "Who is the author of 'To Kill a Mockingbird'?",
+            "options": ["A. Harper Lee", "B. J.D. Salinger", "C. Ernest Hemingway", "D. Mark Twain"],
+            "answer": "A"
+        },
+        {
+            "question": "What is the term for animals that eat both plants and meat?",
+            "options": ["A. Herbivores", "B. Carnivores", "C. Omnivores", "D. Detritivores"],
+            "answer": "C"
+        }
+        ]
+    }
+}
